@@ -1,0 +1,13 @@
+{
+		"command":"nmap -sT -T5  -vv -n [ip] --system-dns --top-ports 100 --open -oA [ip]", 
+		"threads":3,
+		"date":{
+			"y":2016,
+			"m":1,
+			"d":26
+		},
+		"time":{
+			"h":23,
+			"m":10
+		}
+}
